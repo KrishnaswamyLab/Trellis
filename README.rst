@@ -14,23 +14,7 @@ treatment.
 .. image:: figures/abstract.png
     :alt: Trellis Graphical Abstract
     :height: 300
-    \textbf{Trellis.} \textbf{a)} Single-cells from control and variable
-    conditions are distributed through a tree comprising fixed binary
-    `branches' that supervene upon randomized $k$-means clustering nodes,
-    ending in `leaves'. Fixed branches weigh hierarchical gating strategies
-    while nodes and leaves still leverage latent parameters. In each node of
-    the tree variables are subtracted from paired controls to create a
-    multi-scaled differential matrix (based on a kantorovich-rubinstein norm)
-    that scales to thousands of conditions. \textbf{b)} Single-cell density
-    PHATEs of PDO 21 treated with DMSO or SN-38 (irinotecan). SN-38 results
-    in cell-cycle exit (IdU$^{-}$, pHH3$^{-}$, and pRB$^{-}$) and induction
-    of apoptosis (cPARP$^{+}$). \textbf{c)} Trellis hierarchy for single-cell
-    PDO drug responses leveraging fixed cell-state branches and randomized
-    PTM and DNA-damage parameters. Trellis scores are calculated per PDO by
-    comparing untreated controls to drugs for both mono-cultures and
-    co-cultures. \textbf{d)} Sankey diagram showing data from {b)}
-    distributing through the Trellis layout in c) (terminal leaves not
-    shown).
+
 
 
 Installation
