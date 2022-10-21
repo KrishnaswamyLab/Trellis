@@ -28,12 +28,6 @@ Trellis is available in `pypi`. Install by running the following
 
 This code was tested with python 3.7 and 3.8.
 
-Basic Usage
------------
-
-See `notebooks/EB-Eval.ipynb` for an example on how to use Trellis on
-a PCA embedding to get trajectories in the gene space.
-
 References
 ----------
 
