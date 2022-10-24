@@ -32,7 +32,7 @@ Data
 ----
 All mass cytometry files are available on `Cytobank <https://community.cytobank.org/cytobank/projects/1461>`_.
 
-Compiled TOBis mass cytometry PDO-CAF dataframe is available at: Ramos, Maria (2022), “Ramos Zapatero et. al (Cancer-Associated Fibroblasts Regulate Patient-Derived Organoid Drug Responses)”, Mendeley Data, V1, doi: 10.17632/hc8gxwks3p.1 (available shortly)
+Compiled TOBis mass cytometry PDO-CAF dataframe is available on `Mendely <https://data.mendeley.com/datasets/hc8gxwks3p>`_.
 
 References
 ----------
