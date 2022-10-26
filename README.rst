@@ -3,7 +3,7 @@ Implementation of Trellis
 
 This library runs code associated with the Trellis paper which is on `BioRxiv <https://www.biorxiv.org/content/10.1101/2022.10.19.512668v1>`_. Code to reproduce the
 figures in the paper can be found on the `TapeLab's github repo
-<https://github.com/TAPE-Lab/Ramos-et-al-Trellis>`_. Note that an earlier version of MultiscaleEMD was used to run these experiments. Installing this version can be accomplished by downloading the source at `this commit <https://github.com/atong01/MultiscaleEMD/tree/35f91c1aa4a209638d5884ea32afba64fe6a4960>`_ and installing with :code:`pip install -e .` from the :code:`MultiscaleEMD` directory.
+<https://github.com/TAPE-Lab/Ramos-et-al-Trellis>`_. Note that an earlier version of `MultiscaleEMD <https://github.com/atong01/MultiscaleEMD/>`_ was used to run these experiments. Installing this version can be accomplished by downloading the source at `this commit <https://github.com/atong01/MultiscaleEMD/tree/35f91c1aa4a209638d5884ea32afba64fe6a4960>`_ and installing with :code:`pip install -e .` from the :code:`MultiscaleEMD` directory.
 
 In brief, Trellis is a method to compare single-cell dataset distributions
 under different treatment conditions while normalizing for multiple controls.
@@ -20,13 +20,13 @@ treatment.
 Installation
 ------------
 
-Trellis is available in `pypi`. Install by running the following
+Trellis is available in `pypi`. Install by running the following:
 
 .. code-block:: bash
 
     pip install MultiscaleEMD
 
-This code was tested with python 3.7-3.10.
+This code was tested with python 3.7-3.10. Issues can be filed directly on the `MultiscaleEMD <https://github.com/atong01/MultiscaleEMD/>`_ project.
 
 Data
 ----
