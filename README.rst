@@ -1,7 +1,8 @@
 Implementation of Trellis
 =========================
+**Trellis tree-based analysis reveals stromal regulation of patient-derived organoid drug responses**
 
-This library runs code associated with the Trellis paper which is on `BioRxiv <https://www.biorxiv.org/content/10.1101/2022.10.19.512668v1>`_. 
+This library runs code associated with the Trellis paper which is now published in **Cell** and accessible  `here <https://www.sciencedirect.com/science/article/pii/S0092867423012205>`_.
 A short how-to tutorial on Trellis is available `here <https://github.com/MariaRamosZ/Trellis_how_to/>`_, with associated notebook hosted on Kaggle `here <https://www.kaggle.com/code/mariaramosz/trellis>`_.
 Code to reproduce the figures in the paper can be found on the `TapeLab's github repo
 <https://github.com/TAPE-Lab/Ramos-et-al-Trellis>`_. Note that an earlier version of `MultiscaleEMD <https://github.com/atong01/MultiscaleEMD/>`_ was used to run these experiments. Installing this version can be accomplished by downloading the source at `this commit <https://github.com/atong01/MultiscaleEMD/tree/35f91c1aa4a209638d5884ea32afba64fe6a4960>`_ and installing with :code:`pip install -e .` from the :code:`MultiscaleEMD` directory.
@@ -38,16 +39,12 @@ Compiled TOBis mass cytometry PDO-CAF dataframe is available on `Mendely <https:
 References
 ----------
 
-BioRXiv Link: https://www.biorxiv.org/content/10.1101/2022.10.19.512668v1::
-
-    @article {Ramos Zapatero2022.10.19.512668,
-        author = {Ramos Zapatero, Maria and Tong, Alexander and Sufi, Jahangir and Vlckova, Petra and Cardoso Rodriguez, Ferran and Nattress, Callum and Qin, Xiao and Hochhauser, Daniel and Krishnaswamy, Smita and Tape, Christopher J},
-        title = {Cancer-Associated Fibroblasts Regulate Patient-Derived Organoid Drug Responses},
-        elocation-id = {2022.10.19.512668},
-        year = {2022},
-        doi = {10.1101/2022.10.19.512668},
-        publisher = {Cold Spring Harbor Laboratory},
-        URL = {https://www.biorxiv.org/content/early/2022/10/21/2022.10.19.512668},
-        eprint = {https://www.biorxiv.org/content/early/2022/10/21/2022.10.19.512668.full.pdf},
-        journal = {bioRxiv}
+    @article{Ramos Zapatero2022.10.19.512668,
+    	author = {Maria {Ramos Zapatero} and Alexander Tong and James W. Opzoomer and Rhianna O'Sullivan and Ferran {Cardoso Rodriguez} and Jahangir Sufi and Petra Vlckova and Callum Nattress and Xiao Qin and Jeroen Claus and Daniel Hochhauser and Smita Krishnaswamy and Christopher J. Tape},
+    	journal = {Cell},
+    	number = {25},
+    	pages = {5606-5619.e24},
+    	title = {Trellis tree-based analysis reveals stromal regulation of patient-derived organoid drug responses},
+    	volume = {186},
+    	year = {2023}
     }
